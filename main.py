@@ -6,7 +6,8 @@ import joblib
 
 model = joblib.load('binaaz_best_model.pkl')
 
-st.title('🏠 Ev Elanı Çıxarış Proqnozu')
+st.title('🏠 Bu ev satılacaqmı?')
+st.write('Ev məlumatlarını daxil edin, model satılma ehtimalını proqnoz etsin.')
 st.write('Aşağıdakı məlumatları daxil edin:')
 
 col1, col2 = st.columns(2)
